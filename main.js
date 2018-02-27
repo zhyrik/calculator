@@ -18,7 +18,16 @@ function fun1(e){
         num2 = parseFloat(num2);
         switch (this.value){
                 case "+" :
-                    console.log(num1 + num2);
+                    result.value = num1 + num2;
+                break;
+                case "-" :
+                    result.value = num1 - num2;
+                break;
+                case "*" :
+                    result.value = num1 * num2;
+                break;
+                case "/" :
+                    result.value = num1 / num2;
                 break;
                 }
     }
