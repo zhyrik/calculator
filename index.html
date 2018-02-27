@@ -5,13 +5,26 @@
     <title>Calculator</title>
     
     <style> 
+        *{
+            text-align: center;
+            margin: 20px;
+            font-size: 20px;
+        }
         body{
             background-color: aqua;
         }
     </style>
 </head>
 <body>
-    
+    <div id="wrap">
+        <input type="number" id="num1"><br>
+        <input type="number" id="num2"><br>
+        <input type="button" value="+">
+        <input type="button" value="-">
+        <input type="button" value="*">
+        <input type="button" value="/"><br>
+        <input type="text" id="result">
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
