@@ -27,7 +27,10 @@ function fun1(e){
                     result.value = num1 * num2;
                 break;
                 case "/" :
-                    result.value = num1 / num2;
+                    if(num2 == 0)
+                        result.value = "Dont divide by 0";
+                    else
+                        result.value = num1 / num2;
                 break;
                 }
     }
